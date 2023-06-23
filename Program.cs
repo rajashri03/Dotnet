@@ -15,13 +15,12 @@ namespace Dotnet
         //c#-object oriented programming langauge
         static void Main(string[] args)
         {
-            Console.WriteLine("enter name");
-            string name=Console.ReadLine();
-            Console.WriteLine("enter address");
-            string address=Console.ReadLine();
-            Console.WriteLine("your name is "+name);
-            Console.WriteLine("your name is {0} and address is {1}",name,address);
-           
+        //classname objectname=new classname();
+        //objtname.methodname();
+            Addition add=new Addition();
+            Console.WriteLine(add.stringmethod());
+            //classname.method();
+            Addition.DoAddition();
         }
     }
 }
